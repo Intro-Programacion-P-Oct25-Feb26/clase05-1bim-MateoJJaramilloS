@@ -1,4 +1,4 @@
-/*
+gg6/*
  * Realizar un programa en java que permita determinar
  * si un estudiante ha pasado el ciclo
  * se ingresa el promedio del estudiante
