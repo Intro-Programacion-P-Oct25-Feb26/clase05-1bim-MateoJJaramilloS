@@ -15,7 +15,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo1 {
+public class Ejemplo3 {
 
     public static void main(String[] args) {
         // Condicionales simplesmain
@@ -25,10 +25,11 @@ public class Ejemplo1 {
         double limiteNotas = 6.9;
         double promedio;
         
+        System.out.println("Ingrese el límite de notas");
+        limiteNotas = entrada.nextDouble();
+        
         System.out.println("Ingrese un valor para analizar");
-        promedio = entrada.nextDouble();
-
-       
+        promedio = entrada.nextDouble();     
 
         if (promedio >= limiteNotas) {
             System.out.printf("Estudiante aprobado con un "
