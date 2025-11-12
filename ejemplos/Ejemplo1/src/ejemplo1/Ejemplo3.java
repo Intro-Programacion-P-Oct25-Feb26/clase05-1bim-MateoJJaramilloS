@@ -25,7 +25,7 @@ public class Ejemplo3 {
         double limiteNotas = 6.9;
         double promedio;
         
-        System.out.println("Ingrese el límite de notas");
+        System.out.println("Ingrese por el límite de notas");
         limiteNotas = entrada.nextDouble();
         
         System.out.println("Ingrese un valor para analizar");
