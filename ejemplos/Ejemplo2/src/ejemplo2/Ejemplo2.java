@@ -45,7 +45,7 @@ public class Ejemplo2 {
             System.out.printf("Estudiante %s de edad %d y de la ciudad %s a aprobado con un promedio: %.2f\n", 
                     miNombre, edad, ciudad,  promedio);
         }else{
-            System.out.printf("Estudiante %s de edad %d y de la ciudad %s a reprobado con un "
+            System.out.printf("Estudiante %s de edad %d y de la ciudad de %s a reprobado con un "
                     + "promedio: %.2f\n", miNombre, edad, ciudad, promedio);
         }
     }
