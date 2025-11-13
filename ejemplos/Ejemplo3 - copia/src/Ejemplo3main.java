@@ -18,9 +18,9 @@ import java.util.Locale;
  *
  * @author reroes
  */
-public class Ejemplo3 {
+public class Ejemplo3main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // Condicionales aninados
         // >= 7.5 Aprobado
         // >= 5 and < 7.5 Suspenso
@@ -49,4 +49,4 @@ public class Ejemplo3 {
         }
     }
 
-}
+

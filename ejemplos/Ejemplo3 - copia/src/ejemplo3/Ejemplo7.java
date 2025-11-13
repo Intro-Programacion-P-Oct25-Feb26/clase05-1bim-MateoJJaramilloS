@@ -11,24 +11,22 @@ presentar un mensaje con el siguiente texto; Estudiante en suspenso con un prome
 siguiente texto; Estudiante reprobado con un promedio: ? 
  */
 package ejemplo3;
-
-import java.util.Scanner; 
-import java.util.Locale;
 /**
  *
  * @author reroes
  */
-public class Ejemplo3 {
+public class Ejemplo7 {
 
     public static void main(String[] args){
         // Condicionales aninados
-        // >= 7.5 Aprobado
+        // >= 7.5 and <10 Aprobado
         // >= 5 and < 7.5 Suspenso
         // >= 3 and < 5 Recuperación
-        // < 3 Reprobado
-        double promedio = 2;
+        // >=0 and < 3 reprobado
+        //cualquier otra nota estara fuera de rango
+        double promedio = -5;
 
-        if (promedio >= 7.5) {
+        if ((promedio >= 7.5) && (promedio < 10)) {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } else {
@@ -40,13 +38,20 @@ public class Ejemplo3 {
                 System.out.printf("Estudiante a recúperación con un "
                         + "promedio: %.2f\n", promedio);
                 } else {
-                    if ((promedio < 3)) {
+                    if ((promedio >= 0) && (promedio < 3)) {
                     System.out.printf("Estudiante reprobado con un "
                         + "promedio: %.2f\n", promedio);
+                    }else{
+                        if (promedio<0){
+                            System.out.printf("La nota %.2f está fuera de " + "rango y es negativo", promedio);
+                        }else{
+                            System.out.printf("La nota %.2f está fuera de " + "rango y es positivo", promedio);
+                        }
                 }
             }
 
         }
     }
 
+    }
 }

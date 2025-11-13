@@ -11,9 +11,6 @@ presentar un mensaje con el siguiente texto; Estudiante en suspenso con un prome
 siguiente texto; Estudiante reprobado con un promedio: ? 
  */
 package ejemplo3;
-
-import java.util.Scanner; 
-import java.util.Locale;
 /**
  *
  * @author reroes
@@ -49,4 +46,5 @@ public class Ejemplo3 {
         }
     }
 
+    }
 }
